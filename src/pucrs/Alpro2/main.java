@@ -17,9 +17,11 @@ public class main {
      */
     public static void main(String[] args) {
         
-        Sequencia seq = new Sequencia("Teste de string");
+        Ponto p1 = new Ponto();
+        Ponto p2 = new Ponto(p1);
+        Ponto p3 = new Ponto(3, 7);
         
-        System.out.println(seq.toString());
+        System.out.println(Ponto.getCount());
         
     }
     
