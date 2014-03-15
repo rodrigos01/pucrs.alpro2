@@ -49,7 +49,17 @@ public class Ponto {
         return count;
     }
     
+    public double calcDistance(Ponto ponto) {
+        return Ponto.calcDistance(ponto.getX(), this.x, ponto.getY(), this.y);
+    }
     
+    public double calcDistance(int x, int y) {
+        return Ponto.calcDistance(x, this.x, y, this.y);
+    }
+    
+    public static double calcDistance(int x1, int x2, int y1, int y2) {        
+        return Math.sqrt((Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2)));
+    }
     
     
 }
