@@ -10,6 +10,12 @@ package pucrs.Alpro2;
  *
  * @author rodrigo
  */
+/**
+ * 
+ * @author rodrigo
+ * @param <E>
+ * @param <F> 
+ */
 public class Par<E,F> {
     
     private E obj1, obj2;
