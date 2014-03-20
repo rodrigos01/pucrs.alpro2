@@ -40,6 +40,11 @@ public class Par<E,F> {
     public void setObj2(E obj2) {
         this.obj2 = obj2;
     }
+
+    @Override
+    public String toString() {
+        return "obj1: "+obj1.toString()+", obj2: "+obj2.toString();
+    }
     
     
     
